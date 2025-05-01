@@ -1,7 +1,7 @@
 <script setup>
 const props = defineProps({
     resultado: {
-        type: [Number, String], // Aceita número ou string (para mensagens de erro)
+        type: [Number, String],
         required: true
     }
 });
